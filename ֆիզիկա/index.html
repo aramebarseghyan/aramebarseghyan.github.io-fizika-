@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="hy">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Աստղագիտություն | Տիեզերքի Նոր Դարաշրջան</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="index.js"></script>
+  </head>
+  <body>
+    <!-- ✨ ՄՈՒՏՔԻ ԷԿՐԱՆՆԵՐԻ ՀԱՄԱԿԱՐԳ (INTRO SYSTEM) ✨ -->
+    <div id="intro">
+      <!-- ԱՌԱՋԻՆ ԷՏԱՊ. Կայքի Ստեղծողներ -->
+      <div class="intro-content intro-step-1">
+        <h2 class="intro-title">Կայքի Ստեղծողներ</h2>
+        <h1 class="intro-names">Arame Barseghyan <span>&</span> Alex Galstyan</h1>
+      </div>
+
+      <!-- ԵՐԿՐՈՐԴ ԷՏԱՊ. Ռեֆերատի Հեղինակ -->
+      <div class="intro-content intro-step-2">
+        <h2 class="intro-title">ռեֆերատի հեղինակ</h2>
+        <h1 class="intro-names author-name">Alex Galstyan</h1>
+      </div>
+    </div>
+
+    <!-- ✨ ՎԵՐԵՎԻ ԱՋ ԱՆԿՅՈՒՆԻ ԻՆՖՈՐՄԱՑԻԱ ✨ -->
+    <div class="top-right-info">
+      <div class="info-item">
+        <span class="info-label">Ստեղծողներ՝</span>
+        <span class="info-value">Arame & Alex</span>
+      </div>
+      <div class="info-item">
+        <span class="info-label">Ռեֆերատ՝</span>
+        <span class="info-value highlight">Alex Galstyan</span>
+      </div>
+    </div>
+
+    <canvas id="stars"></canvas>
+
+    <header id="home">
+      <h1>Աստղադիտակներ և Սև Խոռոչներ</h1>
+      <p>
+        Տիեզերքի ամենախոր գաղտնիքները բացահայտվում են հզոր աստղադիտակների և սև
+        խոռոչների ուսումնասիրության միջոցով։
+      </p>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="#telescopes">Աստղադիտակներ</a></li>
+        <li><a href="#blackholes">Սև Խոռոչներ</a></li>
+        <li><a href="#timeline">Ժամանակագիծ</a></li>
+        <li><a href="#video">Տեսանյութ</a></li>
+      </ul>
+    </nav>
+
+    <section id="telescopes">
+      <h2>Ժամանակակից Աստղադիտակներ</h2>
+      <div class="grid">
+        <div class="card image-card">
+          <img
+            src="https://images.unsplash.com/photo-1580428180121-0c0c64a31f29?q=80&w=1200"
+            alt="James Webb"
+          />
+          <h3>James Webb</h3>
+          <p>
+            Ամենահզոր տիեզերական աստղադիտակը, որը կարող է տեսնել տիեզերքի
+            ամենահին օբյեկտները։
+          </p>
+        </div>
+
+        <div class="card image-card">
+          <img
+            src="https://images.unsplash.com/photo-1473923377535-0002805f57e8?q=80&w=1200"
+            alt="Radio Telescopes"
+          />
+          <h3>Ռադիո Աստղադիտակներ</h3>
+          <p>
+            Ուսումնասիրում են սև խոռոչները և անտեսանելի ռադիոալիքները տիեզերքից։
+          </p>
+        </div>
+
+        <div class="card image-card">
+          <img
+            src="https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?q=80&w=1200"
+            alt="Earth Telescopes"
+          />
+          <h3>Երկրային Հսկաներ</h3>
+          <p>
+            Երկրի վրա տեղակայված տելեսկոպները ապահովում են բարձր ճշգրտությամբ
+            դիտումներ։
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="blackholes">
+      <h2>Սև Խոռոչներ</h2>
+      <div class="grid">
+        <div class="card image-card">
+          <img
+            src="https://images.unsplash.com/photo-1543722530-d2c3201371e7?q=80&w=1200"
+            alt="Black hole"
+          />
+          <h3>Ի՞նչ է սև խոռոչը</h3>
+          <p>
+            Տիեզերքի օբյեկտ, որի ձգողական ուժը այնքան մեծ է, որ նույնիսկ լույսը
+            չի փախչում։
+          </p>
+        </div>
+
+        <div class="card image-card">
+          <img
+            src="https://images.unsplash.com/photo-1462331940025-496dfbfc7564?q=80&w=1200"
+            alt="Supermassive Black hole"
+          />
+          <h3>Գերհսկա Սև Խոռոչներ</h3>
+          <p>
+            Գտնվում են գալակտիկաների կենտրոնում և կառավարում են դրանց
+            զարգացումը։
+          </p>
+        </div>
+
+        <div class="card image-card">
+          <img
+            src="https://images.unsplash.com/photo-1444703686981-a3abbc4d4fe3?q=80&w=1200"
+            alt="Origin"
+          />
+          <h3>Ծագում</h3>
+          <p>Առաջանում են հսկա աստղերի փլուզման արդյունքում։</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="timeline">
+      <h2>Կարևոր Բացահայտումներ</h2>
+      <div class="timeline">
+        <div class="event left card">
+          <h3>1916</h3>
+          <p>Էյնշտեյնը կանխատեսեց սև խոռոչների գոյությունը։</p>
+        </div>
+
+        <div class="event right card">
+          <h3>2019</h3>
+          <p>Առաջին սև խոռոչի լուսանկարը։</p>
+        </div>
+
+        <div class="event left card">
+          <h3>2021</h3>
+          <p>James Webb-ի արձակում։</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="video">
+      <h2>Տիեզերք․ Սև Խոռոչներ</h2>
+      <div class="video-box">
+        <iframe
+          src="https://www.youtube.com/embed/qA5MuKQRsbs"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </section>
+
+    <footer>
+      <div class="creators-footer">
+        <p>Ստեղծվել է մեծ սիրով և նվիրումով</p>
+        <h3>Arame Barseghyan & Alex Galstyan</h3>
+      </div>
+      <p class="copyright">
+        © 2026 • Աստղագիտություն | HTML • CSS • JavaScript
+      </p>
+    </footer>
+  </body>
+</html>
